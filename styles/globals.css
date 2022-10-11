@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400;500&display=swap');
 @import "../styles/header.css";
 @import '../styles/navbar.css';
+@import "../styles/hero-animation.css";
+@import "../styles/hero.css";
+
+@import 'animate.css';
 
 *,
 *::before,
@@ -18,7 +22,19 @@ body {
   overflow-x: hidden;
 }
 
-body::before {
+body::-webkit-scrollbar {
+  width: 7px;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(43, 43, 43);
+}
+
+/* body::before {
   content: "";
   position: absolute;
   right: -10%;
@@ -28,7 +44,7 @@ body::before {
   background: url("../public/Svg/Lights.svg") no-repeat;
   background-size: cover;
   z-index: 1;
-}
+} */
 
 a {
   color: inherit;

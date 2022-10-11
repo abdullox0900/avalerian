@@ -1,0 +1,45 @@
+/* .her-logo {
+    position: absolute;
+    width: 1110px;
+    height: 750px;
+    top: 0%;
+    right: -4%;
+    background: url("../public/Svg/lights-logo.svg") no-repeat;
+    background-size: contain;
+} */
+
+.her-oval-1 {
+    position: absolute;
+    top: -15%;
+    right: -20%;
+    width: 710px;
+    height: 265px;
+    background: #58FFF5;
+    mix-blend-mode: screen;
+    filter: blur(167.606px);
+    transform: rotate(45.74deg);
+}
+
+.her-oval-2 {
+    position: absolute;
+    top: 0%;
+    right: 10%;
+    width: 500px;
+    height: 500px;
+    background: #00E5FF;
+    mix-blend-mode: screen;
+    filter: blur(167.606px);
+    transform: rotate(60deg);
+}
+
+.her-oval-3 {
+    position: absolute;
+    top: 10%;
+    right: -30%;
+    width: 1000px;
+    height: 800px;
+    background: linear-gradient(180deg, rgba(255, 0, 107, 0.32) 0%, #FF6DC1 100%);
+    mix-blend-mode: screen;
+    filter: blur(244.391px);
+    transform: rotate(60deg);
+}
